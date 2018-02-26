@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+div, ul{
+    font-size: 0;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+a, a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+#pagination-container {
+	margin: 20px;
+}
+
+.ul_container {
+	display: flex;
+}
+
+.item, .dot {
+	width: 35px;
+    border: solid 1px #ededed;
+    height: 35px;
+    color: #3e3e3e;
+    text-align: center;
+    line-height: 35px;
+}
+
+.prev, .next {
+	width: 70px;
+}
+
+.item a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+
+.item:hover {
+    z-index: 1;
+    border-color: #e75141;
+}
+
+.item:hover a {
+    color: #e75141;
+}
+
+.active, .active:hover{
+    background: #e75141;
+    color: #fff;
+    border-color: #e75141;
+    cursor: default;
+    text-decoration: none;
+}
+
+.active a, .active:hover a{
+    color: #fff;
+}
+
+.jump {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.jump .text {
+	margin: 0 5px;
+	font-size: 14px;
+}
+
+.jump .input {
+	width: 50px;
+}
+
+.jump .btn {
+	width: 50px;
+    border: solid 1px #ededed;
+    height:30px;
+    color: #3e3e3e;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.jump .btn:hover{
+    background: #e75141;
+    color: #fff;
+    border-color: #e75141;
+    text-decoration: none;
+    cursor: pointer;
+}
