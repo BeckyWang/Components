@@ -82,7 +82,7 @@ a, a:link, a:visited, a:active{
 	width: 50px;
 }
 
-.jump .btn {
+.jump .jump-btn {
 	width: 50px;
     border: solid 1px #ededed;
     height:30px;
@@ -93,7 +93,7 @@ a, a:link, a:visited, a:active{
     font-size: 14px;
 }
 
-.jump .btn:hover{
+.jump .jump-btn:hover{
     background: #e75141;
     color: #fff;
     border-color: #e75141;
