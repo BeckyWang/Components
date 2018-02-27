@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+div, ul{
+    font-size: 0;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+a, a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+#countdown-contanier {
+	margin: 20px;
+}
+
+button {
+	width: 50px;
+    border: solid 1px #ededed;
+    height:30px;
+    color: #3e3e3e;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+button:hover{
+    background: #e75141;
+    color: #fff;
+    border-color: #e75141;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#countdown {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+}
